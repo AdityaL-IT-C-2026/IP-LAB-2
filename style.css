@@ -104,7 +104,6 @@ body {
     transition: color 0.3s ease;
 }
 
-/* Pseudo-Class for Link Hover */
 .footer .contact ul li a:hover {
     color: #f0a500;
 }
