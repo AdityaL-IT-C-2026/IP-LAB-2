@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar .logo {
+    border-radius: 50%;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h1,
+.content h3 {
+    text-align: center;
+    color: #444;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.content ul li {
+    background-color: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.content ul li:hover {
+    background-color: #ddd;
+}
+
+.content video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.content audio {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer .details {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer .details td {
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+.footer .contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .contact ul li {
+    margin-bottom: 10px;
+}
+
+.footer .contact ul li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    transition: color 0.3s ease;
+}
+
+/* Pseudo-Class for Link Hover */
+.footer .contact ul li a:hover {
+    color: #f0a500;
+}
+
+.footer .contact ul li a::after {
+    content: " ↗";
+    font-size: 0.9em;
+}
+
+.footer .contact ul li a:hover::after {
+    content: " ↘";
+    color: #f0a500;
+}
